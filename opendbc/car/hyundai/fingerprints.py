@@ -335,6 +335,7 @@ FW_VERSIONS = {
   CAR.HYUNDAI_SANTA_FE_PHEV_2022: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00TMhe SCC F-CUP      1.00 1.00 99110-CL500         ',
+      b'\xf1\x00TMhe SCC F-CUP      1.00 1.01 99110-CL500         ',
       b'\xf1\x00TMhe SCC FHCUP      1.00 1.00 99110-CL500         ',
       b'\xf1\x00TMhe SCC FHCUP      1.00 1.01 99110-CL500         ',
     ],
@@ -342,9 +343,11 @@ FW_VERSIONS = {
       b'\xf1\x00TM  MDPS C 1.00 1.02 56310-CLAC0 4TSHC102',
       b'\xf1\x00TM  MDPS C 1.00 1.02 56310-CLEC0 4TSHC102',
       b'\xf1\x00TM  MDPS C 1.00 1.02 56310CLEC0\x00 4TSHC102',
+      b'\xf1\x00TM  MDPS R 1.00 1.06 57700-CL000 4TSHP106',
       b'\xf1\x00TM  MDPS R 1.00 1.06 57700-CL090 4TSHP106',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00TMP MFC  AT EUR LHD 1.00 1.06 99211-S1500 220727',
       b'\xf1\x00TMP MFC  AT EUR RHD 1.00 1.06 99211-S1500 220727',
       b'\xf1\x00TMP MFC  AT USA LHD 1.00 1.03 99211-S1500 210224',
       b'\xf1\x00TMP MFC  AT USA LHD 1.00 1.05 99211-S1500 220126',
